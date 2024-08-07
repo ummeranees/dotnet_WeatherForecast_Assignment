@@ -1,0 +1,20 @@
+{
+  "main": {
+    "temp": 288.54,
+    "pressure": 1011,
+    "humidity": 58,
+    "tempMin": 279.04,
+    "tempMax": 282.63,
+    "visibility": 6173,
+    "sunrise": 1722889527,
+    "sunset": 1722932727,
+    "description": "clear sky"
+  },
+  "wind": {
+    "speed": 0.6,
+    "deg": 37
+  },
+  "location": "Bangalore",
+  "date": "2024-08-05",
+  "dataValidUntil": "2024-08-05T22:25:27.4843420Z"
+}
