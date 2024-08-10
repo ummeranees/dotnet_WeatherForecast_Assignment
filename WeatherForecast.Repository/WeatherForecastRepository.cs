@@ -21,7 +21,7 @@ namespace WeatherForecast.Repository
             try
             {
                 string url = _configuration["ConnectionString"] + $"location={location}&date={date:yyyy-MM-dd}";
-                var response = await _httpClient.GetAsync($"https://localhost:44367/Weather?location={location}&date={date:yyyy-MM-dd}");
+                var response = await _httpClient.GetAsync(url);
                 response.EnsureSuccessStatusCode();
                 var content = await response.Content.ReadAsStringAsync();
                 var options = new JsonSerializerOptions
